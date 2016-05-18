@@ -15,7 +15,7 @@
 		<div class="navbar-fixed">
 		<nav class = "Blue">
 		  <div class="nav-wrapper">
-			<a href="index.html" class="brand-logo">Christian</a>
+		    <a href="index.html" class="brand-logo">Christian</a>
       		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		    <ul class="right hide-on-med-and-down">
 		      <li><a href="education.html">Education</a></li>
@@ -95,12 +95,10 @@
 		    See some of my photography <a href = https://www.instagram.com/camanaog> here </a>.
 		  </div>
 
-		  <div class = "divider"></div>
 		  <div id="recent" class="section scrollspy">
 		    <h2 class = "header"> Recent News</h2>
 		  </div>
 
-		  <div class = "divider"></div>
 		  <div id="photos" class="section scrollspy">
 		    <h2 class="header"> Photography </h2>
 		  </div>
@@ -123,6 +121,14 @@
 		<!--Import jQuery before materialize.js-->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+		   $(document).ready(function () {
+		       $('.slider').slider({
+		       	indicators: false,
+		       	height: 450,
+		       });
+		   });
+		</script>
 		<script>
 		   $(document).ready(function () {
 		       $('.slider').slider({
